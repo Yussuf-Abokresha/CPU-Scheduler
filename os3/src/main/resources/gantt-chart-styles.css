@@ -1,0 +1,25 @@
+.chart-bar {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 3;
+}
+
+.status-blue {
+    -fx-background-color: #4a90e2; /* Blue color */
+}
+
+.status-green {
+    -fx-background-color: #50e3c2; /* Green color */
+}
+
+.status-red {
+    -fx-background-color: #e94e77; /* Red color */
+}
+
+.status-yellow {
+    -fx-background-color: #f5a623; /* Yellow color */
+}
+
+.status-purple {
+    -fx-background-color: #9013fe; /* Purple color */
+}

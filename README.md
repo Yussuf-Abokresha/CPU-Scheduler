@@ -25,12 +25,12 @@ src/
     ├── ProcessCpu.java                 # Process representation
     ├── IntervalLists/                  # Scheduling algorithm containers
     │   ├── IntervalList.java           # Abstract base class
-    │   ├── FcaiIntervalList.java       # FCFS implementation
+    │   ├── FCAI_IntervalList.java      # FCAI implementation
     │   ├── PriorityIntervalList.java   # Priority scheduling
     │   ├── SjfIntervalList.java        # Shortest Job First
     │   └── SrtfIntervalList.java       # Shortest Remaining Time First
     └── IntevalCpus/                    # Interval record implementations
         ├── IntervalCpu.java            # Abstract base
-        ├── FcaiIntervalCpu.java        # FCFS records
+        ├── FCAI_IntervalCpu.java       # FCAI records
         ├── PriorityIntervalCpu.java    # Priority records
         └── SjfIntervalCpu.java         # SJF records
